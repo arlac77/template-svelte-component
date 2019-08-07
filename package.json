@@ -4,9 +4,11 @@
   "version": "0.0.0-semantic-release",
   "svelte": "src/index.svelte",
   "module": "index.mjs",
-  "keywords": ["svelte"],
+  "keywords": [
+    "svelte"
+  ],
   "devDependencies": {
-    "rollup": "^1.19.3",
+    "rollup": "^1.19.4",
     "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.0",
