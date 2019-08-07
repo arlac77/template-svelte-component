@@ -25,5 +25,10 @@
   },
   "engines": {
     "node": ">=10.16.2"
+  },
+  "template": {
+    "usedBy": [
+      "arlac77/svelte-guard-history-router"
+    ]
   }
 }
