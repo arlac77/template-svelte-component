@@ -35,6 +35,9 @@
   "template": {
     "repository": {
       "url": "https://github.com/arlac77/npm-package-template-svelte.git"
-    }
+    },
+    "usedBy": [
+      "arlac77/svelte-time-series"
+    ]
   }
 }
