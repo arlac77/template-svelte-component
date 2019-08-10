@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arlac77/svelte-session-manager.git"
+    "url": "https://github.com/arlac77/npm-package-template-svelte.git"
   },
   "bugs": {
-    "url": "https://github.com/arlac77/svelte-session-manager/issues"
+    "url": "https://github.com/arlac77/npm-package-template-svelte/issues"
   },
-  "homepage": "https://github.com/arlac77/svelte-session-manager#readme",
+  "homepage": "https://github.com/arlac77/npm-package-template-svelte#readme",
   "template": {
     "repository": {
       "url": "https://github.com/arlac77/npm-package-template-svelte.git"
