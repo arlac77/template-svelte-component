@@ -1,12 +1,16 @@
 {
-  "name": "{{name}}",
-  "description": "{{description}}",
+  "name": "svelte-sesion-maanger",
   "version": "0.0.0-semantic-release",
-  "svelte": "src/index.svelte",
   "module": "src/index.svelte",
+  "svelte": "src/index.svelte",
   "keywords": [
     "svelte"
   ],
+  "scripts": {
+    "pretest": "(cd example && rollup -c)",
+    "start": "serve -u -s -n -l 5000 example/public",
+    "test": "nightwatch -e chrome"
+  },
   "devDependencies": {
     "chromedriver": "^76.0.0",
     "nightwatch": "^1.1.13",
@@ -17,18 +21,20 @@
     "serve": "^11.1.0",
     "svelte": "^3.7.1"
   },
-  "scripts": {
-    "pretest": "(cd example && rollup -c)",
-    "start": "serve -u -s -n -l 5000 example/public",
-    "test": "nightwatch -e ci"
-  },
   "engines": {
     "node": ">=10.16.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arlac77/svelte-session-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/svelte-session-manager/issues"
+  },
+  "homepage": "https://github.com/arlac77/svelte-session-manager#readme",
   "template": {
-    "usedBy": [
-      "arlac77/svelte-guard-history-router",
-      "arlac77/svelte-session-manager"
-    ]
+    "repository": {
+      "url": "https://github.com/arlac77/npm-package-template-svelte.git"
+    }
   }
 }
