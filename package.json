@@ -7,6 +7,7 @@
     "svelte"
   ],
   "scripts": {
+    "watch": "(cd example && rollup -c -w)",
     "pretest": "(cd example && rollup -c)",
     "start": "serve -u -s -n -l 5000 example/public",
     "test": "nightwatch -e ci"
@@ -14,7 +15,7 @@
   "devDependencies": {
     "chromedriver": "^76.0.0",
     "nightwatch": "^1.1.13",
-    "rollup": "^1.19.3",
+    "rollup": "^1.19.4",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.0",
     "semantic-release": "^15.13.19",
