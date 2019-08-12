@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "watch": "--delete--",
-    "start": "(cd example && rollup -c -w)",
+    "start": "#overwrite (cd example && rollup -c -w)",
     "pretest": "(cd example && rollup -c)",
     "test": "nightwatch -e ci"
   },
