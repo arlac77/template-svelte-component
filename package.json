@@ -7,9 +7,9 @@
     "svelte"
   ],
   "scripts": {
-    "watch": "(cd example && rollup -c -w)",
+    "watch": "--delete--",
+    "start": "(cd example && rollup -c -w)",
     "pretest": "(cd example && rollup -c)",
-    "start": "serve -u -s -n -l 5000 example/public",
     "test": "nightwatch -e ci"
   },
   "devDependencies": {
