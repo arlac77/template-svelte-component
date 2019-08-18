@@ -1,14 +1,14 @@
+import { Selector } from "testcafe";
+
 const base = "http://localhost:5000";
 
-describe("example", function() {
-  it("entry-page-renders", browser => {
-    browser
-      .url(base)
-      .expect.element("body")
-      .to.be.present.before(1000);
+fixture`Getting Started`.page`${base}/index.html`;
 
-    browser.assert.containsText("h1", "Example");
+test("can load", async t => {
+    const title = Selector("h1");
 
-    browser.end();
-  });
-});
+    await t
+      .expect(title.innerText)
+      .eql("Example");
+  }
+);
