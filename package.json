@@ -1,5 +1,6 @@
 {
-  "name": "svelte-sesion-maanger",
+  "name": "{{name}}",
+  "description": "{{description}}",
   "version": "0.0.0-semantic-release",
   "module": "src/index.svelte",
   "svelte": "src/index.svelte",
@@ -15,6 +16,7 @@
     "rollup": "^1.19.4",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-livereload": "^1.0.1",
     "semantic-release": "^15.13.21",
     "serve": "^11.1.0",
     "svelte": "^3.8.1",
@@ -26,14 +28,6 @@
   "config": {
     "port": 5000
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arlac77/svelte-session-manager.git"
-  },
-  "bugs": {
-    "url": "https://github.com/arlac77/svelte-session-manager/issues"
-  },
-  "homepage": "https://github.com/arlac77/svelte-session-manager#readme",
   "template": {
     "repository": {
       "url": "https://github.com/arlac77/npm-package-template-svelte.git"
