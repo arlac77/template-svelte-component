@@ -1,12 +1,15 @@
 import svelte from "rollup-plugin-svelte";
 import resolve from "rollup-plugin-node-resolve";
+import livereload from "rollup-plugin-livereload";
 import http from "http";
 import handler from "serve-handler";
 import pkg from "../package.json";
 
 const port = pkg.config.port || 5000;
 
-if (process.env.ROLLUP_WATCH) {
+const development = process.env.ROLLUP_WATCH;
+
+if (development) {
   const server = http.createServer((request, response) => {
     return handler(request, response, {
       public: "example/public",
@@ -26,5 +29,5 @@ export default {
     format: "esm",
     file: `example/public/bundle.mjs`
   },
-  plugins: [resolve({ browser: true }), svelte()]
+  plugins: [resolve({ browser: true }), svelte(), development && livereload("example/public")]
 };
