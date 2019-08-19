@@ -29,5 +29,9 @@ export default {
     format: "esm",
     file: `example/public/bundle.mjs`
   },
-  plugins: [resolve({ browser: true }), svelte(), development && livereload("example/public")]
+  plugins: [
+    resolve({ browser: true }),
+    svelte(),
+    development && livereload("example/public")
+  ]
 };
