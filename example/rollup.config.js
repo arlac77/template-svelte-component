@@ -26,5 +26,5 @@ export default {
     format: "esm",
     file: `public/bundle.mjs`
   },
-  plugins: [resolve(), svelte()]
+  plugins: [resolve({ browser: true }), svelte()]
 };
