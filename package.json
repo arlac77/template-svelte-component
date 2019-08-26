@@ -21,7 +21,7 @@
     "testcafe": "^1.4.1"
   },
   "engines": {
-    "node": ">=10.16.0"
+    "node": ">=12.9.0"
   },
   "config": {
     "port": 5000
