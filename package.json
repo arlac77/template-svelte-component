@@ -15,7 +15,7 @@
     "serve": "--delete--",
     "rollup-plugin-livereload": "--delete--",
 
-    "rollup": "^1.21.0",
+    "rollup": "^1.21.1",
     "rollup-plugin-dev": "0.0.3",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.0",
