@@ -14,7 +14,6 @@
   "devDependencies": {
     "serve": "--delete--",
     "rollup-plugin-livereload": "--delete--",
-
     "rollup": "^1.21.2",
     "rollup-plugin-dev": "0.0.3",
     "rollup-plugin-node-resolve": "^5.2.0",
@@ -35,6 +34,7 @@
       "url": "https://github.com/arlac77/npm-package-template-svelte.git"
     },
     "usedBy": [
+      "arlac77/svelte-common",
       "arlac77/svelte-guard-history-router",
       "arlac77/svelte-log-view",
       "arlac77/svelte-session-manager",
