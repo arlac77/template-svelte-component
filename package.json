@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start": "rollup -c example/rollup.config.js -w",
-    "test": "testcafe chromium:headless tests/*-test.js -s test-results --app-init-delay 500 --app \"rollup -c example/rollup.config.js -w\""
+    "test": "testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 500 --app \"rollup -c example/rollup.config.js -w\""
   },
   "devDependencies": {
     "rollup-plugin-livereload": "--delete--",

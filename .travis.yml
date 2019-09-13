@@ -4,6 +4,8 @@ node_js:
   - 12.10.0
 addons:
   chrome: stable
+env:
+  - BROSER=chrome
 jobs:
   include:
     - stage: test
