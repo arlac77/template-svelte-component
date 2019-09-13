@@ -8,6 +8,8 @@
     "svelte"
   ],
   "scripts": {
+    "docs": "documentation readme {{module}} --section=API",
+    "lint": "documentation lint {{module}}",
     "start": "rollup -c example/rollup.config.js -w",
     "test": "testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 500 --app \"rollup -c example/rollup.config.js -w\""
   },
@@ -19,7 +21,8 @@
     "rollup-plugin-svelte": "^5.1.0",
     "semantic-release": "^15.13.24",
     "svelte": "^3.12.1",
-    "testcafe": "^1.5.0"
+    "testcafe": "^1.5.0",
+    "documentation": "^12.1.2"
   },
   "engines": {
     "node": ">=12.10.0"
