@@ -5,7 +5,7 @@ node_js:
 addons:
   chrome: stable
 env:
-  - BROSER=chrome
+  - BROWSER=chrome
 jobs:
   include:
     - stage: test
