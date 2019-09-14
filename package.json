@@ -2,7 +2,7 @@
   "name": "{{name}}",
   "description": "{{description}}",
   "version": "0.0.0-semantic-release",
-  "module": "src/index.svelte",
+  "module": "src/index.mjs",
   "svelte": "src/index.svelte",
   "keywords": [
     "svelte"
