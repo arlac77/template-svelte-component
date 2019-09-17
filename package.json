@@ -35,6 +35,21 @@
     "repository": {
       "url": "https://github.com/arlac77/npm-package-template-svelte.git"
     },
+    "files": [
+      {
+        "merger": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "minified size",
+              "icon": "https://badgen.net/bundlephobia/min/{{name}}",
+              "url": "https://bundlephobia.com/result?p={{name}}"
+            }
+          ]
+        }
+      }
+    ],
     "usedBy": [
       "arlac77/svelte-common",
       "arlac77/svelte-guard-history-router",
