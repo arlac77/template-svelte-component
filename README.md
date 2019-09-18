@@ -4,6 +4,12 @@
 
 # usage
 
+## run tests
+```sh
+export BROWSER=safari|chrome|...
+npm|yarn test
+```
+
 # API
 
 # install
