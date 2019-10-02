@@ -1,7 +1,6 @@
 language: node_js
 node_js:
   - -12
-  - 12.11.0
 addons:
   chrome: stable
 env:
@@ -9,6 +8,9 @@ env:
 jobs:
   include:
     - stage: test
+      node_js:
+        - -12
+        - 12.11.0
       script:
         - npm run test
     - stage: release
