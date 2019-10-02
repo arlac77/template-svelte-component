@@ -1,7 +1,10 @@
 language: node_js
-node_js:
-  - -12
-  - 12.11.0
+branches:
+  only:
+    - master
+    - /^greenkeeper/.*$/
+    - /^mkpr/.*$/
+    - /^npm-template-sync/.*$/
 addons:
   chrome: stable
 env:
@@ -9,6 +12,9 @@ env:
 jobs:
   include:
     - stage: test
+      node_js:
+        - -12
+        - 12.11.1
       script:
         - npm run test
     - stage: release
@@ -16,12 +22,12 @@ jobs:
       script: skip
       deploy:
         provider: script
-        skip_cleanup: 'true'
+        skip_cleanup: "true"
         script:
           - npx semantic-release
-branches:
-  only:
-    - master
-    - /^greenkeeper/.*$/
-    - /^mkpr/.*$/
-    - /^npm-template-sync/.*$/
+
+node_js:
+  - -10
+  - -11
+  - -12
+cache: -npm
