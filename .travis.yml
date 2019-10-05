@@ -17,6 +17,12 @@ jobs:
         - 12.11.1
       script:
         - npm run test
+    - stage: doc
+      node_js: lts/*
+      skip_cleanup: "true"
+      script:
+        - npm run lint
+        - npm run docs
     - stage: release
       node_js: lts/*
       script: skip
@@ -25,9 +31,3 @@ jobs:
         skip_cleanup: "true"
         script:
           - npx semantic-release
-
-node_js:
-  - -10
-  - -11
-  - -12
-cache: --delete-- npm
