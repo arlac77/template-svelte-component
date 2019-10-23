@@ -27,8 +27,6 @@
   "engines": {
     "node": ">=12.12.0"
   },
-  "config": {
-  },
   "template": {
     "inheritFrom": "arlac77/npm-package-template-root",
     "files": [
