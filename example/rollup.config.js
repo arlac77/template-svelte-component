@@ -2,7 +2,6 @@ import resolve from "@rollup/plugin-node-resolve";
 
 import dev from "rollup-plugin-dev";
 import svelte from "rollup-plugin-svelte";
-import acornClassFields from "acorn-class-fields";
 
 import pkg from "../package.json";
 
@@ -24,6 +23,5 @@ export default {
     }),
     resolve({ browser: true }),
     svelte()
-  ],
-  acornInjectPlugins: [acornClassFields]
+  ]
 };
