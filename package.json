@@ -28,7 +28,11 @@
     "node": ">=12.14.0"
   },
   "template": {
-    "inheritFrom": "arlac77/npm-package-template",
+    "inheritFrom": [
+      "arlac77/npm-package-template-root",
+      "arlac77/npm-package-template-travis",
+      "arlac77/npm-package-template-rollup"
+    ],
     "files": [
       {
         "merger": "Readme",
