@@ -29,11 +29,6 @@
         "options": {
           "badges": [
             {
-              "name": "minified size",
-              "icon": "https://badgen.net/bundlephobia/min/{{name}}",
-              "url": "https://bundlephobia.com/result?p={{name}}"
-            },
-            {
               "name": "Svelte v3",
               "icon": "https://img.shields.io/badge/svelte-v3-orange.svg",
               "url": "https://svelte.dev"
