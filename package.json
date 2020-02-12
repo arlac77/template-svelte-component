@@ -34,7 +34,8 @@
             {
               "name": "Svelte v3",
               "icon": "https://img.shields.io/badge/svelte-v3-orange.svg",
-              "url": "https://svelte.dev"
+              "url": "https://svelte.dev",
+              "order" : 0.05
             }
           ]
         }
