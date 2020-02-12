@@ -14,6 +14,9 @@
     "svelte": "^3.18.2",
     "testcafe": "^1.8.1"
   },
+  "engines": {
+    "node": ">=12.16.0"
+  },
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
