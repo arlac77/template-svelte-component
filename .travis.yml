@@ -17,12 +17,6 @@ jobs:
         - 12.16.0
       script:
         - npm run test
-    - stage: doc
-      node_js: lts/*
-      skip_cleanup: "true"
-      script:
-        - npm run lint
-        - npm run docs
     - stage: release
       node_js: lts/*
       script: skip
