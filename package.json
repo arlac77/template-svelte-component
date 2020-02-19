@@ -15,7 +15,7 @@
     "testcafe": "^1.8.2"
   },
   "engines": {
-    "node": ">=${node_version}"
+    "node": ">={{node_version}}"
   },
   "template": {
     "inheritFrom": [

@@ -6,6 +6,6 @@ jobs:
   include:
     - stage: test
       node_js:
-        - ${node_version}
+        - {{node_version}}
       script:
         - npm run test
