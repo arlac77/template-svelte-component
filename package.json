@@ -12,10 +12,10 @@
     "rollup-plugin-dev": "^1.1.1",
     "rollup-plugin-svelte": "^5.1.1",
     "svelte": "^3.18.2",
-    "testcafe": "^1.8.1"
+    "testcafe": "^1.8.2"
   },
   "engines": {
-    "node": ">=12.16.1"
+    "node": ">=${node_version}"
   },
   "template": {
     "inheritFrom": [
@@ -25,6 +25,9 @@
       "arlac77/npm-package-template-documentation",
       "arlac77/npm-package-template-release"
     ],
+    "properties":{
+      "node_version" : "12.16.1"
+    },
     "files": [
       {
         "merger": "Readme",
