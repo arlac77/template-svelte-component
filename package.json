@@ -25,8 +25,8 @@
       "arlac77/npm-package-template-documentation",
       "arlac77/npm-package-template-release"
     ],
-    "properties":{
-      "node_version" : "12.16.1"
+    "properties": {
+      "node_version": "12.16.1"
     },
     "files": [
       {
@@ -38,7 +38,7 @@
               "name": "Svelte v3",
               "icon": "https://img.shields.io/badge/svelte-v3-orange.svg",
               "url": "https://svelte.dev",
-              "order" : 0.05
+              "order": 0.05
             }
           ]
         }
