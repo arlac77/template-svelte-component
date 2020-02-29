@@ -4,5 +4,4 @@ example
 *.tmp
 .test
 .tmp
-.travis.yml
 .vscode
