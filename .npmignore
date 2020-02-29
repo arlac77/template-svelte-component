@@ -1,7 +1,5 @@
 test-results
 example
-*.log
-*.tmp
 .test
 .tmp
 .vscode
