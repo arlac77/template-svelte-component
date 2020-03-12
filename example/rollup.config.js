@@ -9,7 +9,7 @@ export default {
   output: {
     sourcemap: true,
     format: "esm",
-    file: `example/public/bundle.mjs`
+    file: "example/public/bundle.mjs"
   },
   plugins: [
     dev({
