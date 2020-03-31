@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "rollup-plugin-dev": "^1.1.1",
-    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-svelte": "^5.2.0",
     "svelte": "^3.20.1",
     "testcafe": "^1.8.3"
   },
