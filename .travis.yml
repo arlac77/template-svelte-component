@@ -6,6 +6,6 @@ jobs:
   include:
     - stage: test
       node_js:
-        - 12.16.2
+        - 13.12.0
       script:
         - npm run test
