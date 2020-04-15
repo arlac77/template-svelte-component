@@ -23,7 +23,7 @@
       "arlac77/template-release"
     ],
     "properties": {
-      "node_version": "13.12.0"
+      "node_version": "13.13.0"
     },
     "mergers": [
       {
