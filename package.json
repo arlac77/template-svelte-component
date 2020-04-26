@@ -45,6 +45,7 @@
       "Kronos-Integration/svelte-components",
       "arlac77/mkpr",
       "arlac77/npm-template-sync",
+      "arlac77/npm-template-sync-github-hook",
       "arlac77/svelte-common",
       "arlac77/svelte-guard-history-router",
       "arlac77/svelte-log-view",
