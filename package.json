@@ -23,7 +23,7 @@
       "arlac77/template-semantic-release"
     ],
     "properties": {
-      "node_version": "13.13.0"
+      "node_version": "14.0.0"
     },
     "mergers": [
       {
