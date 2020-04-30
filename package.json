@@ -15,15 +15,9 @@
   },
   "template": {
     "inheritFrom": [
-      "arlac77/template-root",
-      "arlac77/template-travis",
-      "arlac77/template-rollup",
-      "arlac77/template-documentation",
-      "arlac77/template-semantic-release"
+      "arlac77/template-web-component",
+      "arlac77/template-travis"
     ],
-    "properties": {
-      "node_version": "14.0.0"
-    },
     "mergers": [
       {
         "type": "Readme",
