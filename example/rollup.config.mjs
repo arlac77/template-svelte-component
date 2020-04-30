@@ -18,7 +18,8 @@ export default {
       spa: "example/public/index.html",
       basePath: "/base"
     }),
-    resolve({ browser: true }),
+    resolve({ browser: true,
+              dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/') }),
     svelte()
   ]
 };
