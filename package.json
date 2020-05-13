@@ -11,6 +11,7 @@
   "template": {
     "inheritFrom": [
       "arlac77/template-web-component",
+      "arlac77/template-svelte",
       "arlac77/template-travis"
     ],
     "usedBy": [
