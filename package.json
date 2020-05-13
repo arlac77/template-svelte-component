@@ -1,38 +1,17 @@
 {
   "main": "src/index.mjs",
   "svelte": "src/index.svelte",
-  "keywords": [
-    "svelte"
-  ],
   "scripts": {
     "start": "rollup -c example/rollup.config.mjs -w",
     "test": "testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 500 --app \"rollup -c example/rollup.config.mjs -w\""
   },
   "devDependencies": {
-    "rollup-plugin-svelte": "^5.2.1",
-    "svelte": "^3.22.2",
     "testcafe": "^1.8.4"
   },
   "template": {
     "inheritFrom": [
       "arlac77/template-web-component",
       "arlac77/template-travis"
-    ],
-    "mergers": [
-      {
-        "type": "Readme",
-        "pattern": "README.md",
-        "options": {
-          "badges": [
-            {
-              "name": "Svelte v3",
-              "icon": "https://img.shields.io/badge/svelte-v3-orange.svg",
-              "url": "https://svelte.dev",
-              "order": 0.05
-            }
-          ]
-        }
-      }
     ],
     "usedBy": [
       "Kronos-Integration/svelte-components",
