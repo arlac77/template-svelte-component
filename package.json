@@ -9,6 +9,27 @@
     "testcafe": "^1.8.7"
   },
   "template": {
+    "mergers": [
+      {
+        "type": "YAML",
+        "pattern": ".github/workflows/*.yml",
+        "options": {
+          "messagePrefix": "chore(actions): ",
+          "mergeHints": {
+            "*": {
+              "removeEmpty": true
+            },
+            "*.node-version": {
+              "scope": "deps",
+              "merge": "mergeVersionsPreferNumeric"
+            },
+            "*.steps": {
+              "key": "id|name|uses|run"
+            }
+          }
+        }
+      }
+    ],
     "inheritFrom": [
       "arlac77/template-web-component",
       "arlac77/template-svelte"
