@@ -6,7 +6,7 @@
     "test": "--overwrite-- testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 1000 --app \"rollup -c example/rollup.config.mjs -w\""
   },
   "devDependencies": {
-    "testcafe": "^1.8.7"
+    "testcafe": "^1.8.8"
   },
   "template": {
     "mergers": [
