@@ -1,5 +1,4 @@
 {
-  "main": "./src/index.mjs",
   "svelte": "./src/index.svelte",
   "scripts": {
     "start": "rollup -c example/rollup.config.mjs -w",
