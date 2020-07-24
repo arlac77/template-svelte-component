@@ -18,6 +18,10 @@
             "*": {
               "removeEmpty": true
             },
+            "*.node": {
+              "scope": "deps",
+              "merge": "mergeVersionsPreferNumeric"
+            },
             "*.steps": {
               "key": "id|name|uses|run"
             }
