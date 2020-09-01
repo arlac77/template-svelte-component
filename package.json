@@ -4,6 +4,9 @@
     "start": "rollup -c example/rollup.config.mjs -w"
   },
   "template": {
+    "properties": {
+      "rollup.config": "examples/rollup.config.mjs"
+    },
     "inheritFrom": [
       "arlac77/template-web-component",
       "arlac77/template-testcafe",
