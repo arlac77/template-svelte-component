@@ -5,7 +5,7 @@
   },
   "template": {
     "properties": {
-      "rollup.config": "examples/rollup.config.mjs"
+      "rollup": { "config": "examples/rollup.config.mjs" }
     },
     "inheritFrom": [
       "arlac77/template-web-component",
