@@ -2,36 +2,11 @@
   "svelte": "./src/index.svelte",
   "scripts": {
     "start": "rollup -c example/rollup.config.mjs -w",
-    "test": "npm run test:cafe",
-    "test:cafe": "testcafe $BROWSER:headless tests/cafe/*.js -s build/test --app-init-delay 1000 --app \"rollup -c example/rollup.config.mjs -w\""
-  },
-  "devDependencies": {
-    "testcafe": "^1.9.1"
   },
   "template": {
-    "mergers": [
-      {
-        "type": "YAML",
-        "pattern": ".github/workflows/*.yml",
-        "options": {
-          "messagePrefix": "chore(actions): ",
-          "mergeHints": {
-            "*": {
-              "removeEmpty": true
-            },
-            "*.node": {
-              "scope": "deps",
-              "merge": "mergeVersionsPreferNumeric"
-            },
-            "*.steps": {
-              "key": "id|name|uses|run"
-            }
-          }
-        }
-      }
-    ],
     "inheritFrom": [
       "arlac77/template-web-component",
+      "arlac77/template-testcafe",
       "arlac77/template-svelte"
     ],
     "usedBy": [
