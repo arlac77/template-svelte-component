@@ -1,7 +1,7 @@
 {
   "svelte": "./src/index.svelte",
   "scripts": {
-    "start": "rollup -c example/rollup.config.mjs -w",
+    "start": "rollup -c example/rollup.config.mjs -w"
   },
   "template": {
     "inheritFrom": [
