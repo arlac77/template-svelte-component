@@ -5,8 +5,12 @@
   },
   "template": {
     "properties": {
-      "svelte": { "index": "./src/index.svelte" },
-      "rollup": { "config": "example/rollup.config.mjs" }
+      "svelte": {
+        "index": "./src/index.svelte"
+      },
+      "rollup": {
+        "config": "example/rollup.config.mjs"
+      }
     },
     "inheritFrom": [
       "arlac77/template-web-component",
@@ -20,8 +24,7 @@
       "arlac77/svelte-log-view",
       "arlac77/svelte-repository-provider",
       "arlac77/svelte-session-manager",
-      "arlac77/svelte-time-series",
-      "arlac77/svelte-websocket-store"
+      "arlac77/svelte-time-series"
     ]
   }
 }
