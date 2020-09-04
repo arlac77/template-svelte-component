@@ -20,8 +20,7 @@
       "arlac77/svelte-log-view",
       "arlac77/svelte-repository-provider",
       "arlac77/svelte-session-manager",
-      "arlac77/svelte-time-series",
-      "arlac77/svelte-websocket-store"
+      "arlac77/svelte-time-series"
     ]
   }
 }
