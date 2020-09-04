@@ -5,7 +5,7 @@
   },
   "template": {
     "properties": {
-      "svelte": { "index": "./src/index.svelte" }
+      "svelte": { "index": "./src/index.svelte" },
       "rollup": { "config": "example/rollup.config.mjs" }
     },
     "inheritFrom": [
