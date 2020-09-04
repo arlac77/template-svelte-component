@@ -1,10 +1,11 @@
 {
-  "svelte": "./src/index.svelte",
+  "svelte": "{{svelte.index}}",
   "scripts": {
     "start": "rollup -c {{rollup.config}} -w"
   },
   "template": {
     "properties": {
+      "svelte": { "index": "./src/index.svelte" }
       "rollup": { "config": "example/rollup.config.mjs" }
     },
     "inheritFrom": [
