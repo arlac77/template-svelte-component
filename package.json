@@ -9,7 +9,7 @@
         "index": "./src/index.svelte"
       },
       "rollup": {
-        "config": "example/rollup.config.mjs"
+        "config": "tests/app/rollup.config.mjs"
       }
     },
     "inheritFrom": [
