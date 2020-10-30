@@ -1,6 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 import dev from "rollup-plugin-dev";
 import svelte from "rollup-plugin-svelte";
+import virtual from "@rollup/plugin-virtual";
 
 const port = 5000;
 
@@ -14,17 +15,22 @@ export default {
     file: `${basedir}/public/bundle.main.mjs`
   },
   plugins: [
-    dev({
-      port,
-      dirs: [`${basedir}/public`],
-      spa: `${basedir}/public/index.html`,
-      basePath: `/components/svelte-common/${basedir}`
+    virtual({
+      "node-fetch": "export default fetch",
+      stream: "export class Readable {}",
+      buffer: "export class Buffer {}"
     }),
     svelte(),
     resolve({
       browser: true,
       dedupe: importee =>
         importee === "svelte" || importee.startsWith("svelte/")
+    }),
+    dev({
+      port,
+      dirs: [`${basedir}/public`],
+      spa: `${basedir}/public/index.html`,
+      basePath: `/components/svelte-common/${basedir}`
     })
   ]
 };
