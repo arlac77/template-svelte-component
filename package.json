@@ -12,7 +12,7 @@
         "config": "tests/app/rollup.config.mjs"
       },
       "netlify": {
-        "publish": "tests/app/publish/"
+        "publish": "tests/app/public/"
       }
     },
     "inheritFrom": [
