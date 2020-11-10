@@ -10,6 +10,9 @@
       },
       "rollup": {
         "config": "tests/app/rollup.config.mjs"
+      },
+      "netlify": {
+        "publish": "tests/app/publish"
       }
     },
     "inheritFrom": [
