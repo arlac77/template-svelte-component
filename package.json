@@ -11,7 +11,7 @@
       "rollup": {
         "config": "tests/app/rollup.config.mjs"
       },
-      "netlify": {
+      "web-app": {
         "publish": "tests/app/public/"
       }
     },
