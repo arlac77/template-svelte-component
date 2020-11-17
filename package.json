@@ -5,6 +5,7 @@
   },
   "template": {
     "properties": {
+      "main" : "{{svelte.index}}",
       "svelte": {
         "index": "./src/index.svelte"
       },
