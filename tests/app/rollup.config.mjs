@@ -32,7 +32,7 @@ export default {
       port,
       dirs: [`${basedir}/public`],
       spa: `${basedir}/public/index.html`,
-      basePath: `/components/svelte-common/${basedir}`
+      basePath: "/"
     })
   ]
 };
