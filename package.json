@@ -19,7 +19,8 @@
     "inheritFrom": [
       "arlac77/template-web-component",
       "arlac77/template-testcafe",
-      "arlac77/template-svelte"
+      "arlac77/template-svelte",
+      "arlac77/template-documentation"
     ],
     "usedBy": [
       "Kronos-Integration/svelte-components",
