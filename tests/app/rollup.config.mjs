@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import dev from "rollup-plugin-dev";
 import svelte from "rollup-plugin-svelte";
 import virtual from "@rollup/plugin-virtual";
+import postcss from "rollup-plugin-postcss";
 
 const port = 5000;
 
@@ -20,6 +21,7 @@ export default {
       stream: "export class Readable {}",
       buffer: "export class Buffer {}"
     }),
+    postcss(),
     svelte(),
     resolve({
       browser: true,
