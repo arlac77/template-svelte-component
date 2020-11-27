@@ -7,9 +7,11 @@ import postcss from "rollup-plugin-postcss";
 const port = 5000;
 
 const basedir = "tests/app";
+const production = !process.env.ROLLUP_WATCH;
 
 export default {
   input: `${basedir}/src/index.mjs`,
+  treeshake: production,
   output: {
     sourcemap: true,
     format: "esm",
