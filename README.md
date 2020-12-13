@@ -1,4 +1,4 @@
-# {{name}}
+# {{fullName}}
 
 {{description}}
 
@@ -17,13 +17,13 @@ npm|yarn test
 With [npm](http://npmjs.org) do:
 
 ```shell
-npm install {{name}}
+npm install {{fullName}}
 ```
 
 or with [yarn](https://yarnpkg.com)
 
 ```shell
-yarn add {{name}}
+yarn add {{fullName}}
 ```
 
 # license
