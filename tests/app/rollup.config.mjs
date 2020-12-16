@@ -6,7 +6,6 @@ import postcss from "rollup-plugin-postcss";
 import postcssImport from "postcss-import";
 
 const port = 5000;
-
 const basedir = "tests/app";
 const production = !process.env.ROLLUP_WATCH;
 
