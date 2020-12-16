@@ -3,6 +3,7 @@ import dev from "rollup-plugin-dev";
 import svelte from "rollup-plugin-svelte";
 import virtual from "@rollup/plugin-virtual";
 import postcss from "rollup-plugin-postcss";
+import postcssImport from "postcss-import";
 
 const port = 5000;
 
@@ -23,8 +24,15 @@ export default {
       stream: "export class Readable {}",
       buffer: "export class Buffer {}"
     }),
-    postcss(),
-    svelte(),
+    postcss({
+      extract: true,
+      sourceMap: true,
+      minimize: production,
+      plugins: [postcssImport]
+    }),
+    svelte({
+      dev: !production
+    }),
     resolve({
       browser: true,
       dedupe: importee =>
