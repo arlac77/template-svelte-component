@@ -30,9 +30,11 @@ export default {
       plugins: [postcssImport]
     }),
     svelte({
-      dev: !production
+      compilerOptions: {
+        dev: !production
+      }
     }),
-    resolve({
+  resolve({
       browser: true,
       dedupe: importee =>
         importee === "svelte" || importee.startsWith("svelte/")
