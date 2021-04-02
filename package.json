@@ -3,6 +3,9 @@
   "scripts": {
     "start": "rollup -c {{rollup.config}} -w"
   },
+  "exports" : {
+    "./package.json" : "./package.json"
+  }, 
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
