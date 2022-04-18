@@ -21,7 +21,8 @@
       "arlac77/template-documentation"
     ],
     "usedBy": [
-      "arlac77/svelte-common#next"
+      "arlac77/svelte-common#next",
+      "arlac77/svelte-repository-provider"
     ]
   }
 }
