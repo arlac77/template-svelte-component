@@ -17,8 +17,8 @@
       "arlac77/template-web-component",
       "arlac77/template-testcafe",
       "arlac77/template-svelte",
-      "arlac77/template-vite",
-      "arlac77/template-documentation"
+      "arlac77/template-documentation",
+      "arlac77/template-vite"
     ],
     "usedBy": [
       "arlac77/svelte-common#next",
