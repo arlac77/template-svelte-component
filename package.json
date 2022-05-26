@@ -1,8 +1,5 @@
 {
   "svelte": "{{svelte.index}}",
-  "scripts": {
-    "start": "vite dev"
-  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
