@@ -18,7 +18,7 @@
       "arlac77/template-vite"
     ],
     "usedBy": [
-      "arlac77/svelte-common#next",
+      "arlac77/svelte-common",
       "arlac77/svelte-repository-provider"
     ]
   }
