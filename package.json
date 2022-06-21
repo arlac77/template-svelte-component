@@ -1,16 +1,10 @@
 {
   "svelte": "{{svelte.index}}",
-  "scripts": {
-    "start": "rollup -c {{rollup.config}} -w"
-  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
       "svelte": {
         "index": "./src/index.svelte"
-      },
-      "rollup": {
-        "config": "tests/app/rollup.config.mjs"
       },
       "web-app": {
         "publish": "tests/app/public/"
@@ -19,15 +13,14 @@
     "inheritFrom": [
       "arlac77/template-web-component",
       "arlac77/template-testcafe",
-      "arlac77/template-svelte",
-      "arlac77/template-documentation"
+      "arlac77/template-svelte#next",
+      "arlac77/template-documentation",
+      "arlac77/template-vite"
     ],
     "usedBy": [
-      "Kronos-Integration/svelte-components",
-      "arlac77/svelte-guard-history-router",
-      "arlac77/svelte-log-view",
-      "arlac77/svelte-session-manager",
-      "arlac77/svelte-time-series"
+      "arlac77/svelte-command",
+      "arlac77/svelte-common",
+      "arlac77/svelte-repository-provider"
     ]
   }
 }
