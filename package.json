@@ -24,7 +24,6 @@
     ],
     "usedBy": [
       "Kronos-Integration/svelte-components",
-      "arlac77/svelte-command",
       "arlac77/svelte-guard-history-router",
       "arlac77/svelte-log-view",
       "arlac77/svelte-session-manager",
