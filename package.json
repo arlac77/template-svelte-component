@@ -1,5 +1,9 @@
 {
   "svelte": "{{svelte.index}}",
+  "pkgbuild": {
+  	"http.base.path": "/examples",
+  	"groups": "examples"
+  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
