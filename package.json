@@ -16,11 +16,6 @@
       "arlac77/template-svelte#next",
       "arlac77/template-documentation",
       "arlac77/template-vite"
-    ],
-    "usedBy": [
-      "arlac77/svelte-command",
-      "arlac77/svelte-common",
-      "arlac77/svelte-repository-provider"
     ]
   }
 }
