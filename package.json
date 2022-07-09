@@ -1,8 +1,43 @@
 {
-  "svelte": "{{svelte.index}}",
+  "name": "template-svelte-component",
+  "version": "0.0.0-semantic-release",
+  "svelte": "./src/index.svelte",
+  "description": "template for svelte components apply with npm-template-sync",
+  "keywords": [
+    "component",
+    "web",
+    "svelte",
+    "vite"
+  ],
+  "scripts": {
+    "test": "npm run test:cafe",
+    "test:cafe": "--overwrite-- testcafe $BROWSER:headless tests/cafe/*.js -s build/test --page-request-timeout 9000 --app-init-delay 3000 --app \"vite\"",
+    "prepare": "vite build",
+    "start": "vite dev",
+    "preview": "vite preview",
+    "docs": "documentation readme --section=API {{javascript.source}}",
+    "lint": "npm run lint:docs",
+    "lint:docs": "documentation lint {{javascript.source}}"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3",
+    "testcafe": "^1.19.0",
+    "svelte": "^3.49.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.49",
+    "vite": "^2.9.13",
+    "documentation": "^13.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arlac77/template-svelte-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/template-svelte-component/issues"
+  },
+  "homepage": "https://github.com/arlac77/template-svelte-component#readme",
   "template": {
     "properties": {
-      "main": "{{svelte.index}}",
+      "main": "./src/index.svelte",
       "svelte": {
         "index": "./src/index.svelte"
       },
