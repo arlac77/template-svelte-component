@@ -1,1 +1,9 @@
 bundle.*
+.test
+.tmp
+build
+.DS_Store
+/node_modules/**
+*.log
+*.dump
+*.node
