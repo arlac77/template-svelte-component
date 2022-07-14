@@ -1,5 +1,9 @@
 {
   "svelte": "{{svelte.index}}",
+  "pkgbuild": {
+    "http.base.path": "/examples",
+    "groups": "examples"
+  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
@@ -16,6 +20,12 @@
       "arlac77/template-svelte#next",
       "arlac77/template-documentation",
       "arlac77/template-vite"
+    ],
+    "usedBy": [
+      "Kronos-Integration/svelte-components",
+      "arlac77/svelte-common",
+      "arlac77/svelte-guard-history-router",
+      "arlac77/svelte-repository-provider"
     ]
   }
 }
