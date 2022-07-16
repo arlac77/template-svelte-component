@@ -1,5 +1,8 @@
 {
   "svelte": "{{svelte.index}}",
+  "pkgbuild": {
+    "groups": "examples"
+  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
@@ -16,6 +19,12 @@
       "arlac77/template-svelte#next",
       "arlac77/template-documentation",
       "arlac77/template-vite"
+    ],
+    "usedBy": [
+      "arlac77/svelte-common",
+      "arlac77/svelte-guard-history-router",
+      "arlac77/svelte-log-view",
+      "arlac77/svelte-repository-provider"
     ]
   }
 }
