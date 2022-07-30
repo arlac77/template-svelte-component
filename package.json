@@ -22,8 +22,6 @@
       "arlac77/template-svelte",
       "arlac77/template-documentation"
     ],
-    "usedBy": [
-      "arlac77/svelte-session-manager"
-    ]
+    "usedBy": []
   }
 }
