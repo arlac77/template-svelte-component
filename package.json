@@ -1,6 +1,9 @@
 {
   "svelte": "{{svelte.index}}",
   "pkgbuild": {
+    "content": {
+      "${install.dir}": "build/"
+    },
   	"groups": "examples"
   },
   "template": {
@@ -18,6 +21,7 @@
       "arlac77/template-testcafe",
       "arlac77/template-svelte#next",
       "arlac77/template-documentation",
+      "arlac77/template-pacman",
       "arlac77/template-vite"
     ],
     "usedBy": [
