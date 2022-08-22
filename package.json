@@ -3,8 +3,7 @@
   "pkgbuild": {
     "content": {
       "${install.dir}": "build/"
-    },
-  	"groups": "examples"
+    }
   },
   "template": {
     "properties": {
