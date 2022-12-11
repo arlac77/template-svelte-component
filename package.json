@@ -5,6 +5,9 @@
       "${install.dir}": "build/"
     }
   },
+  "optionalDependencies": {
+    "mf-hosting": "^1.8.0"
+  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",

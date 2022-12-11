@@ -21,7 +21,6 @@ export default defineConfig(async ({ command, mode }) => {
   return {
     base,
     root: "tests/app/src",
-    worker: { format: "es" },
     plugins: [
       svelte({
         compilerOptions: {
