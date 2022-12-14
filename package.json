@@ -21,7 +21,7 @@
     "inheritFrom": [
       "arlac77/template-web-component",
       "arlac77/template-testcafe",
-      "arlac77/template-svelte#next",
+      "arlac77/template-svelte",
       "arlac77/template-documentation",
       "arlac77/template-pacman",
       "arlac77/template-vite"
