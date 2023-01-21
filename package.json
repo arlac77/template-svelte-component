@@ -1,10 +1,5 @@
 {
   "svelte": "{{svelte.index}}",
-  "pkgbuild": {
-    "content": {
-      "${install.dir}": "build/"
-    }
-  },
   "optionalDependencies": {
     "mf-hosting-frontend": "^1.4.0"
   },
