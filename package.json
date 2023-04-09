@@ -1,7 +1,7 @@
 {
   "svelte": "{{svelte.index}}",
   "optionalDependencies": {
-    "mf-hosting-frontend": "^1.7.2"
+    "mf-hosting-frontend": "^1.7.3"
   },
   "template": {
     "properties": {
