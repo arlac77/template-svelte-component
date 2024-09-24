@@ -5,7 +5,7 @@
     }
   },
   "optionalDependencies": {
-    "mf-hosting-frontend": "^3.5.3"
+    "mf-hosting-frontend": "^3.5.4"
   },
   "template": {
     "properties": {
