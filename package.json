@@ -7,6 +7,9 @@
   "optionalDependencies": {
     "mf-hosting-frontend": "^3.8.1"
   },
+  "peerDependencies": {
+    "svelte": "^5.1.4"
+  },
   "template": {
     "properties": {
       "main": "{{svelte.index}}",
