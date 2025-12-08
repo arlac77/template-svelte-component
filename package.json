@@ -5,7 +5,7 @@
     }
   },
   "optionalDependencies": {
-    "mf-hosting-frontend": "^3.9.10"
+    "mf-hosting-frontend": "^3.9.11"
   },
   "peerDependencies": {
     "svelte": "^5.45.2"
