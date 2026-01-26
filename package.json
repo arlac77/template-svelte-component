@@ -8,7 +8,7 @@
     "mf-hosting-frontend": "^3.9.12"
   },
   "peerDependencies": {
-    "svelte": "^5.46.0"
+    "svelte": "^5.48.0"
   },
   "template": {
     "properties": {
